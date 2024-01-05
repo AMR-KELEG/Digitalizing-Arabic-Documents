@@ -3,6 +3,9 @@ This repository serves as a guide for digitalizing Arabic documents using [Tesse
 
 ### Steps
 
+- Install the python packages using pip
+`pip install -r requirements.txt`
+
 - Convert the **pdf** file into multiple **pngs**
 `mkdir -p pngs && convert -density 150 -trim PDF_FILE.pdf pngs/page%d.png`.
   - Note: Replace **PDF_FILE.pdf** with your file's name.
